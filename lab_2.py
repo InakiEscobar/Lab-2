@@ -178,7 +178,7 @@ def formatearTexto(texto: str, anchoMaximo: int) -> List[str]:
 
 def main():
     # Leer texto del archivo
-    print('Inserta la ruta del archivo de texto (incluyendo el nombre del archivo y su extensión):')
+    print('Inserta la ruta del archivo de texto (incluyendo el nombre del archivo):')
     rutaArchivo = input().strip()
     print(f"Ruta del archivo ingresada: {rutaArchivo}")  # Agregar mensaje de depuración
     texto = leerArchivoTexto(rutaArchivo)
